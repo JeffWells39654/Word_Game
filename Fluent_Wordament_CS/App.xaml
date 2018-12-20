@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="Fluent_Wordament_CS.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fluent_Wordament_CS"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <AcrylicBrush x:Key="MyAppBrush1" BackgroundSource="Backdrop" TintOpacity="0.3" TintColor="CadetBlue" FallbackColor="Green"/>
+        <AcrylicBrush x:Key="MyAppBrush2" BackgroundSource="Backdrop" TintOpacity="0.3" TintColor="HotPink" FallbackColor="Red"/>
+        <AcrylicBrush x:Key="MyBackgdropBrush1" BackgroundSource="HostBackdrop" TintOpacity="0.3" TintColor="HotPink" FallbackColor="Gray"/>
+    </Application.Resources>
+</Application>

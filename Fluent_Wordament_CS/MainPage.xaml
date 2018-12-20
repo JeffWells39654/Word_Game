@@ -1,0 +1,97 @@
+﻿<Page
+    x:Class="Fluent_Wordament_CS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fluent_Wordament_CS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    Height="1181" 
+    Width="851"
+    HorizontalAlignment="Left"
+    VerticalAlignment="Top"
+    >
+
+	<Grid 
+        Height="1180" 
+        Width="850"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Top"
+        >
+		<GridView Background="{StaticResource MyBackgdropBrush1}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,30,0,0"  
+                  Width="840" 
+                  Height="840">
+			<Button Content="A" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}" DragEnter="myButton_DragEnter" DragOver="myButton_DragEnter" PointerEntered="Button_PointerEntered" PointerMoved="Button_PointerMoved"
+                    />
+			<Button Content="B" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}" DragEnter="myButton_DragEnter" DragOver="myButton_DragEnter" PointerEntered="Button_PointerEntered" PointerMoved="Button_PointerMoved"
+                    />
+			<Button Content="C" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="D" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="E" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}" DragEnter="myButton_DragEnter" DragOver="myButton_DragEnter" PointerEntered="Button_PointerEntered" PointerMoved="Button_PointerMoved"
+                    />
+			<Button Content="F" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}" DragEnter="myButton_DragEnter" DragOver="myButton_DragEnter" PointerEntered="Button_PointerEntered" PointerMoved="Button_PointerMoved"
+                    />
+			<Button Content="G" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="H" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="I" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="J" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="K" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="L" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="M" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="N" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="O" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush2}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+			<Button Content="P" HorizontalAlignment="Left" Height="200" Margin="5,5,0,0" VerticalAlignment="Top" Width="200" FontSize="140" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    Background="{StaticResource MyAppBrush1}" 
+                    Style="{StaticResource ButtonRevealStyle}"
+                    />
+
+		</GridView>
+		<TextBox x:Name="tb_X_Mouse" HorizontalAlignment="Left" Margin="0,875,0,0" Text="TextBox" VerticalAlignment="Top" Width="415" Height="200" FontSize="72"/>
+		<TextBox x:Name="tb_Y_Mouse" HorizontalAlignment="Right" Margin="0,875,10,0" Text="TextBox" VerticalAlignment="Top" Width="415" Height="200" FontSize="72"/>
+		<Button Content="Reset Board" HorizontalAlignment="Left" Margin="16,1092,0,0" VerticalAlignment="Top" Height="63" Width="254"/>
+		<Button Content="Button" HorizontalAlignment="Left" Margin="297,1089,0,0" VerticalAlignment="Top" Height="63" Width="247"/>
+		<Button Content="Button" HorizontalAlignment="Left" Margin="581,1087,0,0" VerticalAlignment="Top" Height="63" Width="257"/>
+	</Grid>
+</Page>
+
